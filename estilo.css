@@ -1,0 +1,291 @@
+/*  <============ Heder =============>  */
+
+header {
+
+	height: 120px;
+}
+
+header img {
+	margin-top: 50px;
+}
+
+
+/*  <============ Nav =============>  */
+nav {
+
+	background-color: red;
+
+}
+
+
+/*  <============ SECCION 2 =============>  */
+
+.sec2 {
+
+	background-color: white;
+}
+
+
+.sec2 h2 {
+	font-family: 'Montserrat: 300', sans-serif;
+	font-size: 39px;
+	letter-spacing: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #5B5E60;
+	/*gris*/
+}
+
+.prop {
+	font-family: 'Montserrat', sans-serif;
+	color: #5B5E60;
+	/*gris*/
+	height: 100px;
+
+}
+
+.quien h4 {
+
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-family: 'Montserrat', sans-serif;
+
+	color: #FF151F;
+	/* ROJO */
+}
+
+.quien p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 19px;
+	color: #5B5E60;
+	/*gris*/
+
+}
+
+.benefi {
+	font-weight: 300;
+
+}
+
+.benefi li {
+
+	letter-spacing: 3px;
+	margin-right: 30px;
+	font-family: 'Montserrat', sans-serif;
+	color: #5B5E60;
+	/*gris*/
+	font-weight: 600;
+}
+
+
+.benefi span {
+	color: #5B5E60;
+	/*gris*/
+	font-size: 30px;
+}
+
+.benefi li span {
+	color: #FF151F;
+	/* ROJO */
+}
+
+/*  <============ SECCION 4 =============>  */
+
+
+.sec4 {
+	background-color: white;
+
+}
+
+.llame {
+	height: 100px;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 30px;
+}
+
+.sec4 h2 {
+	font-family: 'Montserrat: 300', sans-serif;
+	font-size: 39px;
+	letter-spacing: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #5B5E60;
+	/*gris*/
+}
+
+.imagenes:hover {
+
+	-webkit-filter: brightness(50%);
+	filter: brightness(80%);
+}
+
+/*  <============ CONTACTO =============>  */
+
+
+.contacto {
+
+	height: 100px;
+
+}
+
+
+.sec4 h2 {
+	font-weight: 600;
+}
+
+/*  <============ EVENTOS =============>  */
+
+.vip img {
+	width: 100%;
+}
+
+
+/*  <============ EVENTOS 2 =============>  */
+
+.custom img {
+	width: 100%;
+}
+
+/*  <============ GAleria =============>  */
+
+.elem {
+	padding: 10px;
+
+}
+
+.titulo h2 {
+	font-family: 'Montserrat: 300', sans-serif;
+	font-size: 35px;
+	font-weight: 600;
+	color: #5B5E60;
+	/*gris*/
+	letter-spacing: 3px;
+}
+
+.titulo span {
+	letter-spacing: 3px;
+	color: #FF151F;
+}
+
+.titulo p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	letter-spacing: 3px;
+	color: #5B5E60;
+	/*gris*/
+}
+
+/*  <============ Footer =============>  */
+footer {
+	background-color: #FF151F;
+	/* ROJO */
+}
+
+footer h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.titulo {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.list li {
+	list-style-type: none;
+}
+
+
+#columnas li a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.list2 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#columnas {
+	column-count: 2;
+	column-gap: 50px;
+	column-rule: 4px solid #fdf9f9;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+
+
+	/* 
+   -webkit-column-count:4;
+   -webkit-column-gap:20px;
+   -webkit-column-rule:4px double black;
+
+   -moz-column-count:4;
+   -moz-column-gap:20px;
+   -moz-column-rule:4px double black;
+
+   -o-column-count:4;
+   -o-column-gap:20px;
+   -o-column-rule:4px double black;
+
+   -ms-column-count:4;
+   -ms-column-gap:20px;
+   -ms-column-rule:4px double black;*/
+}
+
+
+/*  <============ MEDIA QUERY =============>  */
+
+@media only screen and (max-width: 700px) {
+
+	nav ul {
+		color: white !important;
+		display: inline-block !important;
+	}
+
+
+	/*  <============ SEC 2 =============>  */
+	.sec2 h2 {
+		font-family: 'Montserrat: 300', sans-serif;
+		font-size: 25px;
+		letter-spacing: 3px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #5B5E60;
+		/*gris*/
+	}
+
+	.benefi {
+		display: inline-block;
+		text-align: left;
+	}
+
+
+	/*  <============ SEC 4 =============>  */
+	.sec4 h2 {
+		font-family: 'Montserrat: 300', sans-serif;
+		font-size: 25px;
+		letter-spacing: 3px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		color: #5B5E60;
+		/*gris*/
+	}
+
+	/*  <============ footer =============>  */
+
+	.footerFix {
+		text-align: right;
+		width: 100%;
+		z-index: 100;
+		position: fixed !important;
+		bottom: 0;
+	}
+
+}

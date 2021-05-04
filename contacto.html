@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Estilos propios -->
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+  <!-- FAVICON -->
+  <link rel="icon" href="img/Favicon.png" type="image/png" />
+  <link rel="shortcut icon" type="image/png" href="img/Favicon.png" />
+  <!-- Fuentes-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap" rel="stylesheet">
+
+  <head>
+    <title>WITEJE</title>
+  </head>
+
+<body>
+  <!-- ===========  HEADER ========== -->
+  <header id="header" class="container-fluid ">
+    <div class="row justify-content-center">
+      <div class="col-md-1 col-3 pl-0 pr-0">
+        <div class="header-content-right">
+          <img src="img/LOGO.png" style="width: 100%;">
+        </div>
+      </div>
+      <div class="col-md-1 col-3 pl-0 pr-0 ml-2">
+        <div class="header-content-left">
+          <img src="img/LOGO2.png" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===========  NAV BAR ========== -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FECC00">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav container justify-content-center">
+        <ul class="nav  ">
+          <li class="nav-item font-weight-bold text-uppercase mr-xs-3 ">
+            <a class="nav-link " href="index.html#"><span>&middot;</span> Inicio</a>
+          </li>
+          <li class="nav-item font-weight-bold text-uppercase mx-xs-3">
+            <a class="nav-link" href="index.html#sec2"><span>&middot;</span> Quienes somos?</a>
+          </li>
+          <li class="nav-item font-weight-bold text-uppercase mx-xs-3">
+            <a class="nav-link " href="index.html#seccn4"><span>&middot;</span> Servicios Especiales</a>
+          </li>
+          <li class="nav-item font-weight-bold text-uppercase mx-xs-3">
+            <a class="nav-link active" href="contacto.html"><span>&middot;</span> Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ===========  SECCTION Contacto ========== -->
+  <!-- Form with header -->
+  <div class="container card shadow  mb-5 rounded mt-4 ">
+    <!-- Grid row -->
+    <div class="row  ">
+      <div class="col-lg-8">
+        <form class="card-body form" action="enviar.php" method="post">
+          <h3 class="mt-4"><i class="fas fa-envelope pr-2"></i>Escríbenos:</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-0">
+                <input type="text" id="form-contact-name" class="form-control" name="nombre">
+                <label for="form-contact-name" class="" required>Nombre</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class=" mb-0">
+                <input type="email" id="form-contact-email" class="form-control" name="correo" required>
+                <label for="form-contact-email" class="">Email</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class=" mb-0 ">
+                <input type="number" id="form-contact-phone" class="form-control" name="telefono" required>
+                <label for="form-contact-phone" class="" required>Telefono:</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class=" mb-0">
+                <input type="text" id="for  m-contact-company" class="form-control" name="company">
+                <label for="form-contact-company" class="">Empresa (opcional)</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class=" mb-0">
+                <textarea id="form-contact-message" class="form-control md-textarea" rows="3" name="mensaje"></textarea>
+                <label for="form-contact-message" required>Mensaje:</label>
+              </div>
+            </div>
+            <div class="col-md-12 text-center float-right">
+              <button class="btn btn-primary btn-lg pt-1 pb-1 " type="submit"><i class="far fa-paper-plane"
+                  style="border-radius: 90px !important"></i> Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-4 col-12 text-white" style="background-color: #FF151F;">
+        <div class="card-body contact text-center h-100 white-text">
+          <h3 class="my-4 pb-2">Información de contacto</h3>
+          <ul class="text-lg-left list-unstyled ml-4">
+            <li>
+              <p><i class="fas fa-map-marker-alt pr-2"></i>San Juan, Argentina</p>
+            </li>
+            <li>
+              <p><i class="fas fa-phone pr-2"></i>+ 54 9 264 4455943</p>
+            </li>
+            <li>
+              <p><i class="fas fa-envelope pr-2"></i>info@witeje.com.ar</p>
+            </li>
+          </ul>
+          <hr class="hr-light my-4">
+          <ul class="list-inline text-center list-unstyled">
+            <li class="list-inline-item">
+              <a class="p-2 fa-lg tw-ic">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="p-2 fa-lg ins-ic">
+                <i class="fab fa-instagram"> </i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  ===========  FOOTER ==========  -->
+  <footer class="container-fluid fixed-bottom">
+    <div class="row titulo" style="height: 130px;">
+      <div class="col-md-12  text-white text-center col align-self-center">
+        <h3>TRABAJAMOS TODOS LOS DIAS</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-5 col-12 text-white ">
+        <div id="columnas">
+          <li>
+            <p class="list2" style="text-align: center;">RESERVA TU TURNO DE LUNES A SABADO DE 7:00Hs 21:00Hs</p>
+
+          </li>
+          <br>
+          <li>
+            <i class="fas fa-mobile-alt pr-2"></i><a href="#"> + 54 9 2644455943</a>
+          </li>
+          <li>
+            <i class="fab fa-instagram pr-2"></i><a href="#"> witeje.sanjuan</a>
+          </li>
+          <li>
+            <i class="fab fa-facebook-f pr-3"></i><a href="#"> witeje San Juan</a>
+          </li>
+          <li>
+            <i class="far fa-envelope pr-2"></i> <a href="#">translados@witeje.com.ar</a>
+          </li>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script type="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
